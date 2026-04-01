@@ -3,9 +3,9 @@ membuat layouting admin
 
 yang memiliki repo : Dzikri Muhammad Akbar 5520123120 (btw akun saya ada 2 yang dijadiin repo dan yg nge pull di branch(penasararan cara nge pr), [Arissttelest12 dan Dzikri07] )
 
-nova dwi aprilia
+nova dwi aprilia-5520123138
 
-rizcky 
+moh rizcky ardhiansyah-5520123129
 
 Cara Menjalankan Project:
 
