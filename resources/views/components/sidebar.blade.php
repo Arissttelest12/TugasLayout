@@ -1,19 +1,22 @@
-<aside class="w-64 bg-[#222831] text-[#EEEEEE] flex flex-col shadow-xl">
+<aside class="w-64 bg-[#222831] text-[#EEEEEE] flex flex-col shadow-xl rounded-tr-2xl">
     <!-- Logo Section -->
     <div class="p-5 border-b border-[#393E46]">
         <div class="flex items-center space-x-3">
+            <!-- Icon -->
             <div class="w-9 h-9 bg-[#00ADB5] rounded-xl flex items-center justify-center shadow-md">
                 <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-1.5 6M17 13l1.5 6M9 21h6M12 15v6"></path>
                 </svg>
             </div>
-            <div>
-                <h1 class="text-xl font-bold tracking-tight">Jayusman Market</h1>
-                <p class="text-xs text-[#00ADB5] font-medium">Management System</p>
+            <!-- Text -->
+            <div class="leading-tight">
+                <h1 class="text-lg font-semibold tracking-wide">Jayusman Market</h1>
+                <p class="text-[13px] text-[#00ADB5] opacity-80">Management System</p>
             </div>
+
         </div>
     </div>
-
+    
     <!-- Navigation Menu -->
     <nav class="flex-1 px-4 py-6 space-y-1.5">
         <a href="{{ route('dashboard') }}" class="flex items-center space-x-3 px-3 py-2.5 rounded-lg transition-all duration-200 {{ request()->routeIs('dashboard') ? 'bg-[#00ADB5] text-white shadow-md' : 'hover:bg-[#393E46] hover:text-white' }}">
